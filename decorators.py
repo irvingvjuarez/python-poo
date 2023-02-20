@@ -10,4 +10,6 @@ def decorator(cb):
 def foo():
   print("[This is the actual program...]")
 
-foo()
+
+if __name__ == "__main__":
+	foo()
