@@ -1,7 +1,7 @@
 def decorator(cb):
-  def wrapper():
+  def wrapper(*args):
     print("Before")
-    cb()
+    cb(*args)
     print("After")
 
   return wrapper
