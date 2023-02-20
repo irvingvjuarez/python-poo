@@ -1,4 +1,4 @@
-from person import Person
+from instances import Person
 
 vladi = Person("Irving", 21)
 dolphy = Person("Diego", 16)

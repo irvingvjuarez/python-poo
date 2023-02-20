@@ -4,4 +4,5 @@ class Person:
     self.age = age
 
   def greet(self):
-    return f"Hi, my name is {self.name} and I'm {self.age} years old"
+    name, age = self.name, self.age
+    return f"Hi, my name is {name} and I'm {age} years old"
