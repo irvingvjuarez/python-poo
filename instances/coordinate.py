@@ -12,3 +12,10 @@ class Coordinate:
 			self.x = x
 		if y:
 			self.y = y
+
+	def distance(self, anotherCoord):
+		a = (self.x - anotherCoord.x) ** 2
+		b = (self.y - anotherCoord.y) ** 2
+
+		c = (a + b) ** 0.5
+		return c

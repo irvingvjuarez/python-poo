@@ -10,8 +10,11 @@ print(dolphy.greet())
 print(chicha.greet())
 
 # Coordinate class
-coord = Coordinate()
-print(coord.getValues())
+coord = Coordinate(3, 30)
+secondCoord = Coordinate(4, 8)
 
-coord.changeValues(10, 10)
-print(coord.getValues())
+print(isinstance(coord, Coordinate))
+# print(coord.getValues())
+# print(coord.getValues())
+
+# print(coord.distance(secondCoord))
