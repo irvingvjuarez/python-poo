@@ -6,9 +6,7 @@ def bubbleSort(arr):
 			if index <= len(arr) - 2:
 				isCurrentGreater = True if item > arr[index + 1] else False
 				if isCurrentGreater:
-					nextItem = arr[index + 1]
-					arr[index] = nextItem
-					arr[index + 1] = item
+					arr[index], arr[index + 1] = arr[index + 1], item
 			else:
 				break
 
